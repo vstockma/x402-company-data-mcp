@@ -1,6 +1,6 @@
 # x402 Company & Macro Data (MCP server + HTTP API)
 
-Company verification for AI agents from **official national registers of 19 countries** plus GLEIF worldwide, a **KYB check** with EU, UN, OFAC and UK sanctions screening, and official **FX rates, central bank rates, US Treasury yields and inflation**.
+Company verification for AI agents from **official national registers of 20 countries** plus GLEIF worldwide, a **KYB check** with EU, UN, OFAC and UK sanctions screening, and official **FX rates, central bank rates, US Treasury yields and inflation**.
 
 Pay per call in USDC on Base with [x402](https://x402.org). No account, no API key, no subscription.
 
@@ -26,7 +26,7 @@ You never pay for a mistake: bad input gets HTTP 400 **before** payment, and "no
 
 ## Countries
 
-Search by `name` (+ `country`), by national `id`, by `lei`, or by `vat` (FR, NO, FI, LV, HR, CH, CZ, GR).
+Search by `name` (+ `country`), by national `id`, by `lei`, or by `vat` (FR, NO, FI, LV, HR, CH, CZ, GR, DK).
 
 | Country | Register | `id` example |
 |---|---|---|
@@ -48,6 +48,7 @@ Search by `name` (+ `country`), by national `id`, by `lei`, or by `vat` (FR, NO,
 | 🇨🇿 Czechia | ARES | IČO `00177041` |
 | 🇦🇹 Austria | Firmenbuch (HVD) | FN `33209m` |
 | 🇬🇷 Greece | G.E.MI. | `1037501000` or AFM `094019245` |
+| 🇩🇰 Denmark | CVR (Erhvervsstyrelsen) | CVR `24256790` |
 | 🇨🇦 Canada | Corporations Canada (federal corporations only) | `4261607` or BN `847871746` |
 | 🌍 all others | GLEIF (companies with an LEI) | `lei=` |
 
